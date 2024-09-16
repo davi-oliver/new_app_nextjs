@@ -15,5 +15,14 @@ export const globalStyles = globalCss({
     'body, input, textarea, button': {
         fontFamily: 'Roboto',
         fontWeight: 400,
-    }
+    },
+    'cardPage': {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+        height: '100vh',
+    },
+
 });
